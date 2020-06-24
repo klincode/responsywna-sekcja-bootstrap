@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+}
+
+section>div {
+  min-height: 200px;
+  min-width: 100px;
+  display: flex;
+}
+
+h1,
+h2 {
+  color: rgb(141, 141, 141);
+  text-align: center;
+}
+
+h1 {
+  padding: 15px;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.308);
+  margin: auto;
+  width: 300px;
+}
+
+h2 {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.4rem;
+}
+
+
+.skill-item {
+  background-color: rgba(192, 192, 192, 0.136);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin: auto;
+
+}
+
+i {
+  color: rgba(235, 133, 1, 0.966);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.2rem;
+}
